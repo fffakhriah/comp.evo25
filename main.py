@@ -6,7 +6,7 @@ st.title("💼 Nurul Fakhriah's Resume")
 # --- Profile Section ---
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("https://via.placeholder.com/150", caption="Nurul Fakhriah", use_column_width=True)  # replace with your photo URL
+    st.image("C:\Users\User\Downloads\DEGREE", caption="Nurul Fakhriah", use_column_width=True)  # replace with your photo URL
 with col2:
     st.markdown("""
     ### 👩‍💻 About Me  
