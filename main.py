@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Nurul Fakhriah"s Resume")
+st.title("Nurul Fakhriah's Resume")
 st.header("Contact Information")
 st.write("Email: fakhriahyusoff.com")
 st.write("Phone: 019-9455026")
