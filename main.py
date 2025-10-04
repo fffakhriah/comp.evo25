@@ -1,18 +1,17 @@
 import streamlit as st
 
-# --- Title Section ---
+# --- Page Config ---
+st.set_page_config(page_title="Nurul Fakhriah's Resume", page_icon="💼", layout="wide")
+
+# --- Title ---
 st.title("💼 Nurul Fakhriah's Resume")
 
-# --- Profile Section ---
-col1, col2 = st.columns([1, 3])
-with col1:
-    st.image("C:\Users\User\Downloads\DEGREE", caption="Nurul Fakhriah", use_column_width=True)  # replace with your photo URL
-with col2:
-    st.markdown("""
-    ### 👩‍💻 About Me  
-    Passionate about technology and digital innovation.  
-    I love working in teams, solving problems, and exploring new ideas.
-    """)
+# --- About Me Section ---
+st.markdown("""
+### 👩‍💻 About Me  
+Passionate about technology and digital innovation.  
+I love working in teams, solving problems, and exploring new ideas.
+""")
 
 # --- Contact Information ---
 st.header("📞 Contact Information")
@@ -46,4 +45,6 @@ with skills_col2:
 st.header("🚀 Projects")
 st.write("💻 **Computer Evolution Project** – Project for this semester")
 
-
+# --- Footer ---
+st.markdown("---")
+st.markdown("🌟 *Thank you for visiting my digital resume!*")
