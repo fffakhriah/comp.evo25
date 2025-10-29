@@ -60,7 +60,6 @@ def crossover(selected_chromo, CHROMO_LEN, population):
     offspring_cross.extend([child])
   return offspring_cross
 
-
 #mutation
 
 def mutate(offspring, MUT_RATE):
@@ -125,3 +124,7 @@ def main(POP_SIZE, MUT_RATE, TARGET, GENES):
         break
       st.write('String: ' + str(population[0][0]) + ' Generation: ' + str(generation) + ' Fitness: ' + str(population[0][1]))
       generation+=1
+
+
+
+
